@@ -1,0 +1,35 @@
+@relation DataMinig_GirlFriend.symbolic
+
+@attribute money {aLot, normal, dontHave}
+@attribute height {tall, normal, short}
+@attribute car {car_O, car_X}
+@attribute face {face_O, face_X}
+
+@attribute knowledge {grade_G, grade_N, grade_L}
+@attribute humor {humor_O, humor_X}
+@attribute army {army_O, army_X}
+@attribute girlFriend {girl_O, girl_X}
+
+@data
+aLot,normal,car_O,face_O,grade_N,humor_O,army_O,girl_O
+normal,normal,car_O,face_O,grade_N,humor_O,army_O,girl_O
+normal,normal,car_O,face_O,grade_N,humor_O,army_O,girl_O
+normal,normal,car_O,face_O,grade_N,humor_O,army_O,girl_O
+dontHave,short,car_X,face_O,grade_L,humor_O,army_X,girl_O
+normal,normal,car_X,face_X,grade_L,humor_X,army_X,girl_O
+dontHave,short,car_X,face_X,grade_L,humor_X,army_X,girl_O
+
+normal,normal,car_O,face_X,grade_G,humor_X,army_X,girl_X
+aLot,tall,car_O,face_X,grade_G,humor_X,army_X,girl_X
+aLot,tall,car_O,face_X,grade_G,humor_X,army_X,girl_X
+normal,normal,car_X,face_X,grade_N,humor_X,army_X,girl_X
+dontHave,normal,car_X,face_X,grade_N,humor_X,army_X,girl_X
+normal,normal,car_X,face_X,grade_N,humor_X,army_X,girl_X
+normal,normal,car_X,face_X,grade_N,humor_X,army_X,girl_X
+dontHave,short,car_X,face_X,grade_N,humor_X,army_X,girl_X
+normal,normal,car_X,face_X,grade_N,humor_X,army_X,girl_X
+normal,normal,car_X,face_X,grade_N,humor_X,army_X,girl_X
+aLot,tall,car_X,face_X,grade_L,humor_X,army_O,girl_X
+normal,normal,car_X,face_X,grade_L,humor_X,army_O,girl_X
+normal,normal,car_X,face_X,grade_L,humor_X,army_O,girl_X
+
